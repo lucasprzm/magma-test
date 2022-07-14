@@ -1,7 +1,7 @@
 import Logo from "../assets/Logo.svg";
-import burgerIcon from "../assets/icons/burger-icon.svg";
-import bellIcon from "../assets/icons/bell-icon.svg";
-import personIcon from "../assets/icons/person-icon.svg";
+import burgerIcon from "../assets/icons/Header/burger-icon.svg";
+import bellIcon from "../assets/icons/Header/bell-icon.svg";
+import personIcon from "../assets/icons/Header/person-icon.svg";
 
 export default function Header() {
   return (
