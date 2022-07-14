@@ -1,12 +1,14 @@
 import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div>
-        <p className="font-poppins">Teste Fonte Poppins</p>
-        <p className="font-inter">Teste Fonte Inter</p>
+    <div className="h-screen">
+      <div className="h-[60px]">
+        <Header />
+      </div>
+      <div className="flex flex-row h-full">
+        <Sidebar />
       </div>
     </div>
   );
