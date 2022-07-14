@@ -48,7 +48,7 @@ export default function Sidebar() {
                   />
                 </svg>
               </div>
-              <span>{option.text}</span>
+              <span className="group-hover:font-medium">{option.text}</span>
             </div>
           );
         })}
