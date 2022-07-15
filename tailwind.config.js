@@ -8,6 +8,7 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
     },
     colors: {
+      "orange-4": "#FFA750",
       "orange-5": "#F2683A",
       "purple-4": "#6D28D9",
     },
@@ -22,5 +23,5 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
