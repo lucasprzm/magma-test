@@ -1,3 +1,4 @@
+import DemandControl from "./components/DemandControl";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 
@@ -9,6 +10,7 @@ function App() {
       </div>
       <div className="flex flex-row h-full">
         <Sidebar />
+        <DemandControl />
       </div>
     </div>
   );
