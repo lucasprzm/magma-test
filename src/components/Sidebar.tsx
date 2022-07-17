@@ -23,7 +23,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="w-1/6 h-full border-r">
+    <div className="w-1/6 h-full border-r border-[#DEDEDE]">
       <div className="pt-3">
         {menuOptions.map((option, index) => {
           return (
