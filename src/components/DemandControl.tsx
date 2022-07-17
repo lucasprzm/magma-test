@@ -39,7 +39,7 @@ export default function DemandControl() {
           </button>
         </div>
       </div>
-      <div className="bg-[#EFEFEF] flex flex-wrap">
+      <div className="bg-[#EFEFEF] grid grid-cols-3 grid-rows-3 px-2 py-3">
         <CardsDemandControl />
       </div>
     </div>
