@@ -11,7 +11,7 @@ export default function CardsDemandControl() {
           >
             <div className="flex w-full">
               <div
-                className={`w-10 h-10 rounded-full ${cardDetail.icon[1]} flex items-center justify-center mr-4`}
+                className={`w-10 h-10 rounded-2xl ${cardDetail.icon[1]} flex items-center justify-center mr-4`}
               >
                 <svg
                   className={`${cardDetail.icon[0]} w-4 h-5`}
