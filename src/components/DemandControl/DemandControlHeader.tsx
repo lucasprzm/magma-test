@@ -1,6 +1,6 @@
-import cards from "../assets/icons/DemandControl/cards.svg";
-import filter from "../assets/icons/DemandControl/filter.svg";
-import list from "../assets/icons/DemandControl/list.svg";
+import cards from "../../assets/icons/DemandControl/cards.svg";
+import filter from "../../assets/icons/DemandControl/filter.svg";
+import list from "../../assets/icons/DemandControl/list.svg";
 
 export default function DemandControlHeader() {
   return (

@@ -1,5 +1,4 @@
-import CardsDemandControl from "./CardsDemandControl/CardsDemandControl";
-
+import CardsDemandControl from "./CardsDemandControl";
 import DemandControlHeader from "./DemandControlHeader";
 import Pagination from "./Pagination";
 
