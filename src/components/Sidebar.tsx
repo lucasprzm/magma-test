@@ -43,8 +43,8 @@ export default function Sidebar() {
                   <path
                     d={option.icon}
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </div>

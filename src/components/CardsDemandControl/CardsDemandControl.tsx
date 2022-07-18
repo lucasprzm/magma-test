@@ -1,10 +1,14 @@
 import cardsDetails from "./cardsDetails";
+
 export default function CardsDemandControl() {
   return (
     <>
-      {cardsDetails.map((cardDetail) => {
+      {cardsDetails.map((cardDetail, index) => {
         return (
-          <div className="border border-[#FFFFFF] shadow max-w-sm bg-[#FFFFFF] rounded m-2 py-4 px-6">
+          <div
+            key={index}
+            className="border border-[#FFFFFF] shadow max-w-sm bg-[#FFFFFF] rounded m-2 py-4 px-6"
+          >
             <div className="flex w-full">
               <div
                 className={`w-10 h-10 rounded-full ${cardDetail.icon[1]} flex items-center justify-center mr-4`}
@@ -18,8 +22,8 @@ export default function CardsDemandControl() {
                   <path
                     d="M3.99998 7H7.99998M3.99998 9.66667H7.99998M9.33332 13H2.66665C1.93027 13 1.33331 12.403 1.33331 11.6667V2.33333C1.33331 1.59695 1.93027 1 2.66665 1H6.39051C6.56732 1 6.73689 1.07024 6.86191 1.19526L10.4714 4.80474C10.5964 4.92976 10.6666 5.09933 10.6666 5.27614V11.6667C10.6666 12.403 10.0697 13 9.33332 13Z"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </div>
@@ -37,9 +41,9 @@ export default function CardsDemandControl() {
                     </span>
                   </div>
                   <div className="flex items-center justify-center">
-                    {cardDetail.users.map((user) => {
+                    {cardDetail.users.map((user, index) => {
                       return (
-                        <div className="w-5 h-5 mr-1 flex items-center">
+                        <div key={index} className="w-5 h-5 mr-1 flex items-center">
                           {user.avatar === null ? (
                             <span className="text-purple-1 font-inter text-[10px] p-1 bg-purple-3 rounded-xl">
                               {user.name[0] + user.surname[0]}
