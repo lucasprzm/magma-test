@@ -3,7 +3,7 @@ import rightArrow from "../../assets/icons/DemandControl/right-arrow.svg";
 
 function Pagination() {
   return (
-    <ul className="flex justify-end items-center">
+    <ul className="flex justify-center mobile:justify-end items-center">
       <li className="w-4 h-4 border border-gray-3 rounded-lg p-1 m-3">
         <img src={leftArrow} alt="Página anterior" />
       </li>
