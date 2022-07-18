@@ -16,6 +16,7 @@ module.exports = {
       "purple-4": "#6D28D9",
       "gray-1": "#F5F5F5",
       "gray-2": "#D4D4D4",
+      "gray-3": "#A3A3A3",
       "gray-4": "#737373",
     },
     screens: {

@@ -1,8 +1,9 @@
 import cards from "../assets/icons/DemandControl/cards.svg";
 import filter from "../assets/icons/DemandControl/filter.svg";
 import list from "../assets/icons/DemandControl/list.svg";
-import search from "../assets/icons/DemandControl/search.svg";
 import CardsDemandControl from "./CardsDemandControl/CardsDemandControl";
+import leftArrow from "../assets/icons/DemandControl/left-arrow.svg";
+import rightArrow from "../assets/icons/DemandControl/right-arrow.svg";
 
 export default function DemandControl() {
   return (
@@ -41,6 +42,22 @@ export default function DemandControl() {
       </div>
       <div className="bg-[#EFEFEF] grid grid-cols-3 grid-rows-3 px-2 py-3">
         <CardsDemandControl />
+      </div>
+      <div className="w-full bg-[#EFEFEF]">
+        <ul className="flex justify-end items-center">
+          <li className="w-4 h-4 border border-gray-3 rounded-lg p-1 m-3">
+            <img className="" src={leftArrow} alt="Página anterior" />
+          </li>
+          <li className="w-4 h-4 font-poppins text-xs text-[#FFFFFF] m-3 border border-gray-3 bg-purple-1 rounded-lg p-1 flex items-center justify-center">
+            1
+          </li>
+          <li className="w-4 h-4 font-poppins text-xs m-3 text-gray-3">2</li>
+          <li className="w-4 h-4 font-poppins text-xs m-3 text-gray-3">3</li>
+          <li className="w-4 h-4 font-poppins text-xs m-3 text-gray-3">4</li>
+          <li className="w-4 h-4 border border-gray-3 rounded-lg p-1 m-3">
+            <img src={rightArrow} alt="Próxima página" />
+          </li>
+        </ul>
       </div>
     </div>
   );
