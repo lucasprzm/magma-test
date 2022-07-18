@@ -1,5 +1,7 @@
 # Magma Test
 
+https://magma-test.netlify.app/
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucasprzm/magma-test?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/lucasprzm/magma-test?style=for-the-badge)
 
